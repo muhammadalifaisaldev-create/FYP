@@ -1,0 +1,4 @@
+house,end_to_end_recall,n_test_events_classified,classes_evaluated,classes_not_evaluated
+1,0.6583166332665331,788,8,-
+2,0.8104138851802403,633,5,"disposal (4/0), stove (42/0)"
+3,0.5630159603742433,1276,9,"disposal (3/0), furnace (213/0)"

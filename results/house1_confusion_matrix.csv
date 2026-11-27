@@ -1,0 +1,9 @@
+,bathroom_gfi,dishwasher,kitchen_outlets,lighting,microwave,oven,refrigerator,washer_dryer
+bathroom_gfi,14,0,0,0,2,0,0,0
+dishwasher,0,95,3,15,0,0,11,1
+kitchen_outlets,2,1,38,4,5,0,1,0
+lighting,0,3,8,39,0,0,9,0
+microwave,10,0,5,1,115,1,5,0
+oven,0,0,0,0,2,10,2,3
+refrigerator,0,15,9,4,6,2,280,0
+washer_dryer,0,0,0,0,0,1,0,66

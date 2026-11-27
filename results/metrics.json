@@ -1,0 +1,700 @@
+{
+ "synthetic_detector_test": {
+  "n_true": 10,
+  "n_detected": 10,
+  "true_found": 10,
+  "false_events": 0,
+  "max_abs_delta_error_w": 3.43404169334417,
+  "events_whose_windows_touch_true_transition": 0,
+  "pre_before_transition": true,
+  "post_after_transition": true,
+  "windows_well_formed": true,
+  "n_events": 10
+ },
+ "houses": {
+  "1": {
+   "data_report": {
+    "house": 1,
+    "mains_channels": [
+     1,
+     2
+    ],
+    "n_raw_mains_samples": 1561660,
+    "grid_seconds": 3134094,
+    "valid_agg_seconds": 1576475,
+    "agg_nan_fraction": 0.49699179411976796,
+    "start_utc": "2011-04-18 13:22:09",
+    "end_utc": "2011-05-24 19:57:02",
+    "n_gaps_over_60s": 21,
+    "labels": [
+     "bathroom_gfi",
+     "dishwasher",
+     "electric_heat",
+     "kitchen_outlets",
+     "lighting",
+     "microwave",
+     "oven",
+     "refrigerator",
+     "stove",
+     "washer_dryer"
+    ],
+    "sub_nan_fraction_when_agg_valid": 0.0006064162133874626,
+    "agg_min_w": 90.81,
+    "agg_max_w": 12332.8,
+    "agg_negative_samples": 0
+   },
+   "detector_params": {
+    "window": 5,
+    "tol_abs": 10.0,
+    "tol_rel": 0.01,
+    "min_delta": 30.0,
+    "feat_len": 5,
+    "max_transition": 30
+   },
+   "split_utc": "2011-05-03 08:00:37",
+   "event_detection": {
+    "train": {
+     "tp": 1994,
+     "fp": 313,
+     "fn": 599,
+     "n_gt": 2593,
+     "precision": 0.8643259644560035,
+     "recall": 0.7689934438873891,
+     "f1": 0.8138775510204082
+    },
+    "test": {
+     "tp": 788,
+     "fp": 73,
+     "fn": 210,
+     "n_gt": 998,
+     "precision": 0.9152148664343787,
+     "recall": 0.7895791583166333,
+     "f1": 0.8477676169983862
+    }
+   },
+   "per_appliance_detection_recall_test": [
+    {
+     "appliance": "bathroom_gfi",
+     "recall": 1.0,
+     "n_gt": 16
+    },
+    {
+     "appliance": "dishwasher",
+     "recall": 0.8741258741258742,
+     "n_gt": 143
+    },
+    {
+     "appliance": "kitchen_outlets",
+     "recall": 0.796875,
+     "n_gt": 64
+    },
+    {
+     "appliance": "lighting",
+     "recall": 0.9076923076923077,
+     "n_gt": 65
+    },
+    {
+     "appliance": "microwave",
+     "recall": 0.7784090909090909,
+     "n_gt": 176
+    },
+    {
+     "appliance": "oven",
+     "recall": 0.8947368421052632,
+     "n_gt": 19
+    },
+    {
+     "appliance": "refrigerator",
+     "recall": 0.88268156424581,
+     "n_gt": 358
+    },
+    {
+     "appliance": "washer_dryer",
+     "recall": 0.4267515923566879,
+     "n_gt": 157
+    }
+   ],
+   "class_counts": [
+    {
+     "label": "bathroom_gfi",
+     "train": 45,
+     "test": 16
+    },
+    {
+     "label": "dishwasher",
+     "train": 273,
+     "test": 125
+    },
+    {
+     "label": "kitchen_outlets",
+     "train": 188,
+     "test": 51
+    },
+    {
+     "label": "lighting",
+     "train": 148,
+     "test": 59
+    },
+    {
+     "label": "microwave",
+     "train": 362,
+     "test": 137
+    },
+    {
+     "label": "oven",
+     "train": 46,
+     "test": 17
+    },
+    {
+     "label": "refrigerator",
+     "train": 702,
+     "test": 316
+    },
+    {
+     "label": "washer_dryer",
+     "train": 230,
+     "test": 67
+    }
+   ],
+   "evaluable_classes": [
+    "bathroom_gfi",
+    "dishwasher",
+    "kitchen_outlets",
+    "lighting",
+    "microwave",
+    "oven",
+    "refrigerator",
+    "washer_dryer"
+   ],
+   "not_evaluable_classes": [],
+   "leakage_checks": {
+    "train_last_event_end": 1304404613,
+    "test_first_event_start": 1304410428,
+    "gap_seconds": 5815,
+    "no_time_overlap": true,
+    "no_shared_events": true,
+    "no_shared_gt_events": true,
+    "detector_tuned_on": "train period only",
+    "scaler_and_models_fit_on": "train only",
+    "identical_feature_rows_train_test": 0
+   },
+   "steady_window_check": {
+    "pre_before_transition": true,
+    "post_after_transition": true,
+    "windows_well_formed": true,
+    "n_events": 3169
+   },
+   "classification": {
+    "RF steady+transient": {
+     "accuracy": 0.833756345177665,
+     "macro_f1": 0.7668975916867025,
+     "weighted_f1": 0.8361517441668758
+    },
+    "RF steady-state only": {
+     "accuracy": 0.7817258883248731,
+     "macro_f1": 0.6813471317369539,
+     "weighted_f1": 0.785039712050819
+    },
+    "kNN (k=5) steady-state": {
+     "accuracy": 0.7436548223350253,
+     "macro_f1": 0.6584381446768393,
+     "weighted_f1": 0.737472584164124
+    },
+    "Majority class": {
+     "accuracy": 0.4010152284263959,
+     "macro_f1": 0.07155797101449275,
+     "weighted_f1": 0.22956668873684985
+    }
+   },
+   "end_to_end_recall": 0.6583166332665331,
+   "rf_feature_importance": {
+    "abs_delta_p": 0.3916329602186596,
+    "delta_p": 0.25202062039963735,
+    "delta_std": 0.10481466487412078,
+    "overshoot_ratio": 0.09576693914701147,
+    "rel_delta_std": 0.08468512707471919,
+    "trans_len": 0.07107968828585162
+   },
+   "unmatched_test_detections_rf_prediction": {
+    "refrigerator": 29,
+    "microwave": 15,
+    "kitchen_outlets": 9,
+    "washer_dryer": 7,
+    "lighting": 5,
+    "dishwasher": 4,
+    "oven": 2,
+    "bathroom_gfi": 2
+   }
+  },
+  "2": {
+   "data_report": {
+    "house": 2,
+    "mains_channels": [
+     1,
+     2
+    ],
+    "n_raw_mains_samples": 1198534,
+    "grid_seconds": 3026450,
+    "valid_agg_seconds": 1206351,
+    "agg_nan_fraction": 0.6013973467263626,
+    "start_utc": "2011-04-17 23:18:27",
+    "end_utc": "2011-05-22 23:59:16",
+    "n_gaps_over_60s": 19,
+    "labels": [
+     "dishwasher",
+     "disposal",
+     "kitchen_outlets",
+     "lighting",
+     "microwave",
+     "refrigerator",
+     "stove",
+     "washer_dryer"
+    ],
+    "sub_nan_fraction_when_agg_valid": 0.004484598595267878,
+    "agg_min_w": 32.08,
+    "agg_max_w": 3253.07,
+    "agg_negative_samples": 0
+   },
+   "detector_params": {
+    "window": 5,
+    "tol_abs": 5.0,
+    "tol_rel": 0.01,
+    "min_delta": 30.0,
+    "feat_len": 5,
+    "max_transition": 30
+   },
+   "split_utc": "2011-04-28 02:33:02",
+   "event_detection": {
+    "train": {
+     "tp": 1634,
+     "fp": 527,
+     "fn": 308,
+     "n_gt": 1942,
+     "precision": 0.7561314206385933,
+     "recall": 0.8414006179196705,
+     "f1": 0.7964903728978796
+    },
+    "test": {
+     "tp": 633,
+     "fp": 112,
+     "fn": 116,
+     "n_gt": 749,
+     "precision": 0.8496644295302014,
+     "recall": 0.8451268357810414,
+     "f1": 0.8473895582329318
+    }
+   },
+   "per_appliance_detection_recall_test": [
+    {
+     "appliance": "dishwasher",
+     "recall": 0.64,
+     "n_gt": 25
+    },
+    {
+     "appliance": "kitchen_outlets",
+     "recall": 0.9574468085106383,
+     "n_gt": 282
+    },
+    {
+     "appliance": "lighting",
+     "recall": 1.0,
+     "n_gt": 20
+    },
+    {
+     "appliance": "microwave",
+     "recall": 0.7678571428571429,
+     "n_gt": 56
+    },
+    {
+     "appliance": "refrigerator",
+     "recall": 0.7759562841530054,
+     "n_gt": 366
+    }
+   ],
+   "class_counts": [
+    {
+     "label": "dishwasher",
+     "train": 81,
+     "test": 16
+    },
+    {
+     "label": "disposal",
+     "train": 4,
+     "test": 0
+    },
+    {
+     "label": "kitchen_outlets",
+     "train": 626,
+     "test": 270
+    },
+    {
+     "label": "lighting",
+     "train": 68,
+     "test": 20
+    },
+    {
+     "label": "microwave",
+     "train": 108,
+     "test": 43
+    },
+    {
+     "label": "refrigerator",
+     "train": 705,
+     "test": 284
+    },
+    {
+     "label": "stove",
+     "train": 42,
+     "test": 0
+    }
+   ],
+   "evaluable_classes": [
+    "dishwasher",
+    "kitchen_outlets",
+    "lighting",
+    "microwave",
+    "refrigerator"
+   ],
+   "not_evaluable_classes": [
+    {
+     "label": "disposal",
+     "train": 4,
+     "test": 0
+    },
+    {
+     "label": "stove",
+     "train": 42,
+     "test": 0
+    }
+   ],
+   "leakage_checks": {
+    "train_last_event_end": 1303957069,
+    "test_first_event_start": 1303963213,
+    "gap_seconds": 6144,
+    "no_time_overlap": true,
+    "no_shared_events": true,
+    "no_shared_gt_events": true,
+    "detector_tuned_on": "train period only",
+    "scaler_and_models_fit_on": "train only",
+    "identical_feature_rows_train_test": 0
+   },
+   "steady_window_check": {
+    "pre_before_transition": true,
+    "post_after_transition": true,
+    "windows_well_formed": true,
+    "n_events": 2910
+   },
+   "classification": {
+    "RF steady+transient": {
+     "accuracy": 0.9589257503949447,
+     "macro_f1": 0.9022570385946992,
+     "weighted_f1": 0.9599680134411553
+    },
+    "RF steady-state only": {
+     "accuracy": 0.9225908372827805,
+     "macro_f1": 0.814006078482239,
+     "weighted_f1": 0.9275120782958481
+    },
+    "kNN (k=5) steady-state": {
+     "accuracy": 0.9447077409162717,
+     "macro_f1": 0.7789529503824608,
+     "weighted_f1": 0.9394675914105305
+    },
+    "Majority class": {
+     "accuracy": 0.4486571879936809,
+     "macro_f1": 0.12388222464558343,
+     "weighted_f1": 0.27790325275944466
+    }
+   },
+   "end_to_end_recall": 0.8104138851802403,
+   "rf_feature_importance": {
+    "abs_delta_p": 0.4130909110481725,
+    "delta_p": 0.2407162952540567,
+    "delta_std": 0.11003117183487927,
+    "trans_len": 0.08040373729224472,
+    "overshoot_ratio": 0.07921938242330614,
+    "rel_delta_std": 0.0765385021473407
+   },
+   "unmatched_test_detections_rf_prediction": {
+    "refrigerator": 68,
+    "dishwasher": 21,
+    "microwave": 11,
+    "kitchen_outlets": 8,
+    "lighting": 4
+   }
+  },
+  "3": {
+   "data_report": {
+    "house": 3,
+    "mains_channels": [
+     1,
+     2
+    ],
+    "n_raw_mains_samples": 1427284,
+    "grid_seconds": 3870508,
+    "valid_agg_seconds": 1467725,
+    "agg_nan_fraction": 0.6207926711429094,
+    "start_utc": "2011-04-16 05:11:27",
+    "end_utc": "2011-05-31 00:19:54",
+    "n_gaps_over_60s": 138,
+    "labels": [
+     "bathroom_gfi",
+     "dishwasher",
+     "disposal",
+     "electronics",
+     "furnace",
+     "kitchen_outlets",
+     "lighting",
+     "microwave",
+     "outlets_unknown",
+     "refrigerator",
+     "smoke_alarms",
+     "washer_dryer"
+    ],
+    "sub_nan_fraction_when_agg_valid": 0.0023280927966751264,
+    "agg_min_w": 1.4,
+    "agg_max_w": 8059.92,
+    "agg_negative_samples": 0
+   },
+   "detector_params": {
+    "window": 5,
+    "tol_abs": 20.0,
+    "tol_rel": 0.01,
+    "min_delta": 30.0,
+    "feat_len": 5,
+    "max_transition": 30
+   },
+   "split_utc": "2011-05-21 22:33:44",
+   "event_detection": {
+    "train": {
+     "tp": 3022,
+     "fp": 486,
+     "fn": 812,
+     "n_gt": 3834,
+     "precision": 0.8614595210946409,
+     "recall": 0.7882107459572248,
+     "f1": 0.8232089348951239
+    },
+    "test": {
+     "tp": 1276,
+     "fp": 250,
+     "fn": 543,
+     "n_gt": 1819,
+     "precision": 0.836173001310616,
+     "recall": 0.7014843320505773,
+     "f1": 0.7629297458893872
+    }
+   },
+   "per_appliance_detection_recall_test": [
+    {
+     "appliance": "bathroom_gfi",
+     "recall": 0.8333333333333334,
+     "n_gt": 18
+    },
+    {
+     "appliance": "dishwasher",
+     "recall": 0.9183673469387755,
+     "n_gt": 49
+    },
+    {
+     "appliance": "disposal",
+     "recall": 0.0,
+     "n_gt": 2
+    },
+    {
+     "appliance": "electronics",
+     "recall": 0.46503496503496505,
+     "n_gt": 286
+    },
+    {
+     "appliance": "kitchen_outlets",
+     "recall": 0.75,
+     "n_gt": 88
+    },
+    {
+     "appliance": "lighting",
+     "recall": 0.9005847953216374,
+     "n_gt": 171
+    },
+    {
+     "appliance": "microwave",
+     "recall": 0.7830188679245284,
+     "n_gt": 106
+    },
+    {
+     "appliance": "outlets_unknown",
+     "recall": 0.3148148148148148,
+     "n_gt": 324
+    },
+    {
+     "appliance": "refrigerator",
+     "recall": 0.8920353982300885,
+     "n_gt": 565
+    },
+    {
+     "appliance": "washer_dryer",
+     "recall": 0.8285714285714286,
+     "n_gt": 210
+    }
+   ],
+   "class_counts": [
+    {
+     "label": "bathroom_gfi",
+     "train": 70,
+     "test": 15
+    },
+    {
+     "label": "dishwasher",
+     "train": 75,
+     "test": 45
+    },
+    {
+     "label": "disposal",
+     "train": 3,
+     "test": 0
+    },
+    {
+     "label": "electronics",
+     "train": 308,
+     "test": 133
+    },
+    {
+     "label": "furnace",
+     "train": 213,
+     "test": 0
+    },
+    {
+     "label": "kitchen_outlets",
+     "train": 210,
+     "test": 66
+    },
+    {
+     "label": "lighting",
+     "train": 334,
+     "test": 154
+    },
+    {
+     "label": "microwave",
+     "train": 123,
+     "test": 83
+    },
+    {
+     "label": "outlets_unknown",
+     "train": 187,
+     "test": 102
+    },
+    {
+     "label": "refrigerator",
+     "train": 1172,
+     "test": 504
+    },
+    {
+     "label": "washer_dryer",
+     "train": 327,
+     "test": 174
+    }
+   ],
+   "evaluable_classes": [
+    "bathroom_gfi",
+    "dishwasher",
+    "electronics",
+    "kitchen_outlets",
+    "lighting",
+    "microwave",
+    "outlets_unknown",
+    "refrigerator",
+    "washer_dryer"
+   ],
+   "not_evaluable_classes": [
+    {
+     "label": "disposal",
+     "train": 3,
+     "test": 0
+    },
+    {
+     "label": "furnace",
+     "train": 213,
+     "test": 0
+    }
+   ],
+   "leakage_checks": {
+    "train_last_event_end": 1306016342,
+    "test_first_event_start": 1306017853,
+    "gap_seconds": 1511,
+    "no_time_overlap": true,
+    "no_shared_events": true,
+    "no_shared_gt_events": true,
+    "detector_tuned_on": "train period only",
+    "scaler_and_models_fit_on": "train only",
+    "identical_feature_rows_train_test": 0
+   },
+   "steady_window_check": {
+    "pre_before_transition": true,
+    "post_after_transition": true,
+    "windows_well_formed": true,
+    "n_events": 5043
+   },
+   "classification": {
+    "RF steady+transient": {
+     "accuracy": 0.8017241379310345,
+     "macro_f1": 0.7066587064290416,
+     "weighted_f1": 0.805293536829078
+    },
+    "RF steady-state only": {
+     "accuracy": 0.6990595611285266,
+     "macro_f1": 0.6063199693339023,
+     "weighted_f1": 0.709304553134515
+    },
+    "kNN (k=5) steady-state": {
+     "accuracy": 0.7163009404388715,
+     "macro_f1": 0.5812738207288276,
+     "weighted_f1": 0.698785328021402
+    },
+    "Majority class": {
+     "accuracy": 0.3949843260188088,
+     "macro_f1": 0.06292134831460675,
+     "weighted_f1": 0.22367651720615686
+    }
+   },
+   "end_to_end_recall": 0.5630159603742433,
+   "rf_feature_importance": {
+    "abs_delta_p": 0.3829003262677575,
+    "delta_p": 0.25308777801343907,
+    "delta_std": 0.1139371829123431,
+    "rel_delta_std": 0.10032181381240744,
+    "trans_len": 0.08214983130906695,
+    "overshoot_ratio": 0.06760306768498599
+   },
+   "unmatched_test_detections_rf_prediction": {
+    "outlets_unknown": 87,
+    "refrigerator": 48,
+    "lighting": 35,
+    "electronics": 31,
+    "microwave": 21,
+    "washer_dryer": 10,
+    "kitchen_outlets": 9,
+    "dishwasher": 9
+   }
+  }
+ },
+ "cross_house": [
+  {
+   "train_house": 1,
+   "test_house": 2,
+   "classes": "dishwasher, kitchen_outlets, lighting, microwave, refrigerator",
+   "n_train": 2362,
+   "n_test": 2223,
+   "accuracy": 0.6369770580296896,
+   "macro_f1": 0.5656421546481006
+  },
+  {
+   "train_house": 1,
+   "test_house": 3,
+   "classes": "bathroom_gfi, dishwasher, kitchen_outlets, lighting, microwave, refrigerator, washer_dryer",
+   "n_train": 2720,
+   "n_test": 3358,
+   "accuracy": 0.46277546158427635,
+   "macro_f1": 0.460590682334116
+  }
+ ]
+}
