@@ -1,0 +1,208 @@
+time,delta_p,state,predicted,confidence,tracked_as,forced_off,running,running_est_w
+2011-05-23 00:00:34,-157.5,OFF,dishwasher,0.65,(ignored),,-,0.0
+2011-05-23 00:01:46,-1124.4,OFF,dishwasher,0.96,(ignored),,-,0.0
+2011-05-23 00:02:02,1139.8,ON,dishwasher,0.99,dishwasher,,dishwasher,1139.8
+2011-05-23 00:11:58,-39.8,OFF,refrigerator,0.95,(ignored),,dishwasher,1139.8
+2011-05-23 00:24:45,-834.7,OFF,dishwasher,0.56,dishwasher,,dishwasher,305.1
+2011-05-23 00:26:47,-217.5,OFF,dishwasher,0.99,dishwasher,,dishwasher,87.6
+2011-05-23 00:27:02,207.7,ON,dishwasher,0.9,dishwasher,,dishwasher,295.3
+2011-05-23 00:33:02,-211.5,OFF,dishwasher,1.0,(ignored),,-,0.0
+2011-05-23 00:33:16,210.5,ON,refrigerator,0.41,refrigerator,,refrigerator,210.5
+2011-05-23 00:34:01,-210.1,OFF,dishwasher,0.9,refrigerator,,-,0.0
+2011-05-23 00:34:17,208.3,ON,dishwasher,0.88,dishwasher,,dishwasher,208.3
+2011-05-23 00:35:02,-208.7,OFF,dishwasher,0.98,dishwasher,,-,0.0
+2011-05-23 00:35:17,208.1,ON,dishwasher,0.91,dishwasher,,dishwasher,208.1
+2011-05-23 00:36:02,-207.0,OFF,dishwasher,0.68,dishwasher,,-,0.0
+2011-05-23 00:36:16,210.5,ON,refrigerator,0.47,refrigerator,,refrigerator,210.5
+2011-05-23 00:37:00,-207.8,OFF,dishwasher,0.79,refrigerator,,-,0.0
+2011-05-23 00:37:17,209.0,ON,dishwasher,0.9,dishwasher,,dishwasher,209.0
+2011-05-23 00:41:02,55.1,ON,dishwasher,0.46,dishwasher,,dishwasher,264.1
+2011-05-23 00:42:02,-165.1,OFF,refrigerator,1.0,dishwasher,,dishwasher,99.0
+2011-05-23 00:43:02,-38.8,OFF,refrigerator,0.87,(ignored),,dishwasher,99.0
+2011-05-23 00:43:37,40.1,ON,refrigerator,0.35,refrigerator,,"dishwasher, refrigerator",139.1
+2011-05-23 00:44:52,-40.1,OFF,refrigerator,0.69,refrigerator,,dishwasher,99.0
+2011-05-23 00:46:22,1116.7,ON,dishwasher,1.0,dishwasher,,dishwasher,1215.7
+2011-05-23 00:57:52,-69.3,OFF,lighting,0.4,(ignored),,dishwasher,1215.7
+2011-05-23 00:58:18,-38.4,OFF,refrigerator,0.86,(ignored),,dishwasher,1215.7
+2011-05-23 01:06:54,-847.1,OFF,dishwasher,0.97,dishwasher,,dishwasher,368.6
+2011-05-23 01:14:39,219.8,ON,refrigerator,1.0,refrigerator,,refrigerator,219.8
+2011-05-23 01:16:55,-165.8,OFF,refrigerator,0.8,refrigerator,,refrigerator,54.0
+2011-05-23 01:18:25,-48.3,OFF,kitchen_outlets,0.58,refrigerator,,-,0.0
+2011-05-23 01:30:24,-368.5,OFF,dishwasher,0.96,(ignored),,-,0.0
+2011-05-23 01:31:26,461.3,ON,dishwasher,0.82,dishwasher,,dishwasher,461.3
+2011-05-23 01:37:24,-370.8,OFF,dishwasher,0.41,dishwasher,,dishwasher,90.5
+2011-05-23 01:39:09,-175.4,OFF,refrigerator,0.94,dishwasher,,-,0.0
+2011-05-23 01:58:30,38.3,ON,refrigerator,0.95,refrigerator,,refrigerator,38.3
+2011-05-23 01:58:37,-38.5,OFF,refrigerator,0.79,refrigerator,,-,0.0
+2011-05-23 01:59:12,38.2,ON,refrigerator,0.48,refrigerator,,refrigerator,38.2
+2011-05-23 02:12:11,214.3,ON,refrigerator,1.0,refrigerator,,refrigerator,252.5
+2011-05-23 04:05:07,-177.8,OFF,refrigerator,0.98,(ignored),,-,0.0
+2011-05-23 04:15:55,-115.2,OFF,lighting,0.71,(ignored),,-,0.0
+2011-05-23 04:18:23,205.1,ON,refrigerator,0.98,refrigerator,,refrigerator,205.1
+2011-05-23 04:31:51,-170.8,OFF,refrigerator,0.91,refrigerator,,refrigerator,34.3
+2011-05-23 04:35:16,-30.6,OFF,refrigerator,0.52,refrigerator,,-,0.0
+2011-05-23 07:14:23,239.1,ON,refrigerator,0.99,refrigerator,,refrigerator,239.1
+2011-05-23 07:42:23,-175.2,OFF,refrigerator,0.92,refrigerator,,refrigerator,63.9
+2011-05-23 08:36:29,217.8,ON,refrigerator,1.0,refrigerator,,refrigerator,217.8
+2011-05-23 08:56:53,-172.3,OFF,refrigerator,0.87,refrigerator,,refrigerator,45.5
+2011-05-23 09:53:09,217.6,ON,refrigerator,0.54,refrigerator,,refrigerator,217.6
+2011-05-23 10:12:22,-175.2,OFF,refrigerator,0.53,refrigerator,,refrigerator,42.4
+2011-05-23 10:53:18,76.8,ON,lighting,0.86,lighting,,lighting,76.8
+2011-05-23 10:54:56,92.2,ON,lighting,0.91,lighting,,lighting,169.0
+2011-05-23 10:55:32,48.8,ON,kitchen_outlets,0.87,kitchen_outlets,,"kitchen_outlets, lighting",217.8
+2011-05-23 10:56:47,1073.2,ON,kitchen_outlets,0.99,kitchen_outlets,,"kitchen_outlets, lighting",1291.0
+2011-05-23 10:57:48,41.6,ON,lighting,0.65,lighting,,"kitchen_outlets, lighting",1332.6
+2011-05-23 10:59:11,1567.1,ON,microwave,0.91,microwave,,"kitchen_outlets, lighting, microwave",2899.7
+2011-05-23 11:00:13,-1528.8,OFF,kitchen_outlets,0.77,kitchen_outlets,lighting,microwave,1567.1
+2011-05-23 11:01:40,1486.0,ON,microwave,1.0,microwave,,microwave,3053.1
+2011-05-23 11:02:33,-1017.1,OFF,kitchen_outlets,0.85,(ignored),microwave,-,0.0
+2011-05-23 11:03:32,-1545.8,OFF,microwave,0.95,(ignored),,-,0.0
+2011-05-23 11:04:13,1057.9,ON,kitchen_outlets,1.0,kitchen_outlets,,kitchen_outlets,1057.9
+2011-05-23 11:04:25,-1054.1,OFF,kitchen_outlets,0.85,kitchen_outlets,,-,0.0
+2011-05-23 11:05:24,1674.2,ON,bathroom_gfi,0.82,bathroom_gfi,,bathroom_gfi,1674.2
+2011-05-23 11:06:19,-34.9,OFF,microwave,0.63,(ignored),,bathroom_gfi,1674.2
+2011-05-23 11:06:42,-1455.3,OFF,microwave,1.0,bathroom_gfi,,bathroom_gfi,218.9
+2011-05-23 11:07:00,-32.1,OFF,refrigerator,0.45,(ignored),,bathroom_gfi,218.9
+2011-05-23 11:26:20,-183.2,OFF,dishwasher,0.71,(ignored),,-,0.0
+2011-05-23 11:27:40,30.0,ON,refrigerator,0.34,refrigerator,,refrigerator,30.0
+2011-05-23 11:27:50,-41.8,OFF,refrigerator,0.48,refrigerator,,-,0.0
+2011-05-23 11:28:22,40.1,ON,microwave,0.44,microwave,,microwave,40.1
+2011-05-23 11:28:36,-34.0,OFF,kitchen_outlets,0.54,microwave,,-,0.0
+2011-05-23 11:32:32,34.2,ON,refrigerator,0.76,refrigerator,,refrigerator,34.2
+2011-05-23 11:32:38,-32.0,OFF,refrigerator,0.26,refrigerator,,-,0.0
+2011-05-23 11:33:42,-62.2,OFF,lighting,0.57,(ignored),,-,0.0
+2011-05-23 11:34:16,1605.6,ON,bathroom_gfi,0.89,bathroom_gfi,,bathroom_gfi,1605.6
+2011-05-23 11:39:16,-1585.0,OFF,bathroom_gfi,0.98,bathroom_gfi,,-,0.0
+2011-05-23 11:40:24,1596.2,ON,bathroom_gfi,0.98,bathroom_gfi,,bathroom_gfi,1596.2
+2011-05-23 11:40:52,-1580.6,OFF,bathroom_gfi,0.99,bathroom_gfi,,-,0.0
+2011-05-23 11:52:23,-83.3,OFF,kitchen_outlets,0.45,(ignored),,-,0.0
+2011-05-23 12:07:27,1605.9,ON,microwave,0.67,microwave,,microwave,1605.9
+2011-05-23 12:08:26,-1596.2,OFF,microwave,0.84,microwave,,-,0.0
+2011-05-23 12:10:08,1524.0,ON,microwave,0.91,microwave,,microwave,1524.0
+2011-05-23 12:10:49,-1548.4,OFF,microwave,0.62,microwave,,-,0.0
+2011-05-23 12:14:04,1503.7,ON,microwave,0.99,microwave,,microwave,1503.7
+2011-05-23 12:15:15,-1508.0,OFF,microwave,1.0,microwave,,-,0.0
+2011-05-23 12:17:17,-59.0,OFF,lighting,0.68,(ignored),,-,0.0
+2011-05-23 12:30:50,213.9,ON,refrigerator,1.0,refrigerator,,refrigerator,213.9
+2011-05-23 12:51:28,-170.1,OFF,refrigerator,0.74,refrigerator,,refrigerator,43.8
+2011-05-23 13:08:44,297.6,ON,dishwasher,0.71,dishwasher,,dishwasher,297.6
+2011-05-23 15:04:22,-41.2,OFF,refrigerator,0.51,(ignored),,-,0.0
+2011-05-23 15:12:53,213.6,ON,refrigerator,0.98,refrigerator,,refrigerator,213.6
+2011-05-23 15:32:01,-171.2,OFF,refrigerator,0.97,refrigerator,,refrigerator,42.4
+2011-05-23 16:30:09,214.8,ON,refrigerator,0.99,refrigerator,,refrigerator,214.8
+2011-05-23 16:30:46,33.7,ON,refrigerator,0.68,refrigerator,,refrigerator,248.5
+2011-05-23 16:31:02,-36.1,OFF,refrigerator,0.76,(ignored),,refrigerator,248.5
+2011-05-23 16:34:31,38.8,ON,refrigerator,0.91,refrigerator,,refrigerator,287.3
+2011-05-23 16:35:20,-42.6,OFF,kitchen_outlets,0.47,(ignored),,refrigerator,287.3
+2011-05-23 16:42:24,39.8,ON,refrigerator,0.78,refrigerator,,refrigerator,327.1
+2011-05-23 16:50:00,-171.8,OFF,refrigerator,0.85,refrigerator,,refrigerator,155.3
+2011-05-23 17:02:01,36.0,ON,refrigerator,0.9,refrigerator,,refrigerator,191.3
+2011-05-23 17:02:07,-35.7,OFF,refrigerator,0.94,(ignored),,refrigerator,191.3
+2011-05-23 17:03:08,-75.3,OFF,lighting,0.61,(ignored),refrigerator,-,0.0
+2011-05-23 17:31:54,34.5,ON,refrigerator,0.51,refrigerator,,refrigerator,34.5
+2011-05-23 17:32:04,-34.8,OFF,refrigerator,0.77,refrigerator,,-,0.0
+2011-05-23 17:32:28,1656.8,ON,microwave,0.7,microwave,,microwave,1656.8
+2011-05-23 17:33:28,-1641.3,OFF,bathroom_gfi,0.8,microwave,,-,0.0
+2011-05-23 17:33:37,103.9,ON,lighting,0.9,lighting,,lighting,103.9
+2011-05-23 17:34:49,34.5,ON,refrigerator,0.75,refrigerator,,"lighting, refrigerator",138.4
+2011-05-23 17:35:02,-32.6,OFF,refrigerator,0.75,refrigerator,,lighting,103.9
+2011-05-23 17:43:27,207.1,ON,refrigerator,0.99,refrigerator,,"lighting, refrigerator",311.0
+2011-05-23 18:00:54,-163.7,OFF,refrigerator,0.82,refrigerator,,"lighting, refrigerator",147.3
+2011-05-23 19:03:20,207.5,ON,refrigerator,1.0,refrigerator,,refrigerator,207.5
+2011-05-23 19:20:34,-164.8,OFF,refrigerator,0.99,refrigerator,,refrigerator,42.7
+2011-05-23 19:43:46,34.9,ON,refrigerator,0.84,refrigerator,,refrigerator,34.9
+2011-05-23 19:45:08,-39.4,OFF,refrigerator,0.59,refrigerator,,-,0.0
+2011-05-23 19:45:21,39.4,ON,refrigerator,0.73,refrigerator,,refrigerator,39.4
+2011-05-23 19:59:44,-34.8,OFF,refrigerator,0.3,refrigerator,,-,0.0
+2011-05-23 20:09:39,59.8,ON,kitchen_outlets,0.64,kitchen_outlets,,kitchen_outlets,59.8
+2011-05-23 20:23:46,204.0,ON,refrigerator,0.93,refrigerator,,refrigerator,204.0
+2011-05-23 20:41:08,-164.1,OFF,refrigerator,0.77,refrigerator,,refrigerator,39.9
+2011-05-23 20:46:52,39.7,ON,refrigerator,0.47,refrigerator,,refrigerator,79.6
+2011-05-23 20:48:52,-30.8,OFF,refrigerator,0.32,(ignored),,refrigerator,79.6
+2011-05-23 21:19:06,32.9,ON,refrigerator,0.76,refrigerator,,refrigerator,32.9
+2011-05-23 21:19:15,-31.0,OFF,refrigerator,0.55,refrigerator,,-,0.0
+2011-05-23 21:20:38,40.6,ON,refrigerator,0.56,refrigerator,,refrigerator,40.6
+2011-05-23 21:20:53,-37.3,OFF,refrigerator,0.51,refrigerator,,-,0.0
+2011-05-23 21:22:15,32.9,ON,refrigerator,0.68,refrigerator,,refrigerator,32.9
+2011-05-23 21:22:33,-36.8,OFF,refrigerator,0.69,refrigerator,,-,0.0
+2011-05-23 21:23:45,34.8,ON,refrigerator,0.89,refrigerator,,refrigerator,34.8
+2011-05-23 21:24:06,-37.8,OFF,refrigerator,0.86,refrigerator,,-,0.0
+2011-05-23 21:32:04,207.6,ON,dishwasher,0.35,dishwasher,,dishwasher,207.6
+2011-05-23 21:41:09,-53.9,OFF,kitchen_outlets,0.56,(ignored),,dishwasher,207.6
+2011-05-23 21:44:32,58.2,ON,dishwasher,0.41,dishwasher,,dishwasher,265.8
+2011-05-23 21:49:21,-51.3,OFF,kitchen_outlets,0.47,(ignored),,dishwasher,265.8
+2011-05-23 21:49:40,-165.1,OFF,refrigerator,0.93,dishwasher,,dishwasher,100.7
+2011-05-23 21:53:08,101.4,ON,lighting,0.57,lighting,,"dishwasher, lighting",202.1
+2011-05-23 22:01:24,204.8,ON,dishwasher,0.33,dishwasher,,"dishwasher, lighting",406.9
+2011-05-23 22:16:45,-32.4,OFF,kitchen_outlets,0.4,(ignored),,lighting,101.4
+2011-05-23 22:17:01,50.3,ON,lighting,0.49,lighting,,lighting,151.7
+2011-05-23 22:17:17,-49.6,OFF,kitchen_outlets,0.61,(ignored),,lighting,151.7
+2011-05-23 22:19:09,45.8,ON,kitchen_outlets,0.86,kitchen_outlets,,"kitchen_outlets, lighting",197.5
+2011-05-23 22:19:25,46.5,ON,lighting,0.36,lighting,,"kitchen_outlets, lighting",244.0
+2011-05-23 22:19:35,-50.3,OFF,kitchen_outlets,0.32,kitchen_outlets,,lighting,198.2
+2011-05-23 22:20:39,5687.8,ON,washer_dryer,0.84,washer_dryer,,"lighting, washer_dryer",5886.0
+2011-05-23 22:20:56,-1434.7,OFF,microwave,0.9,(ignored),"lighting, washer_dryer",-,0.0
+2011-05-23 22:21:14,1391.8,ON,microwave,0.98,microwave,,microwave,1391.8
+2011-05-23 22:21:28,-1430.4,OFF,microwave,0.78,microwave,,-,0.0
+2011-05-23 22:21:49,1398.9,ON,microwave,0.89,microwave,,microwave,1398.9
+2011-05-23 22:22:00,-1440.3,OFF,microwave,0.85,microwave,,-,0.0
+2011-05-23 22:22:20,1430.5,ON,microwave,0.97,microwave,,microwave,1430.5
+2011-05-23 22:22:33,-1417.0,OFF,microwave,0.99,microwave,,-,0.0
+2011-05-23 22:22:52,1438.2,ON,microwave,1.0,microwave,,microwave,1438.2
+2011-05-23 22:23:04,-1423.9,OFF,microwave,0.93,microwave,,-,0.0
+2011-05-23 22:23:24,1422.8,ON,microwave,1.0,microwave,,microwave,1422.8
+2011-05-23 22:23:36,-1432.2,OFF,microwave,0.99,microwave,,-,0.0
+2011-05-23 22:23:56,1423.9,ON,microwave,0.94,microwave,,microwave,1423.9
+2011-05-23 22:24:08,-1431.1,OFF,microwave,0.93,microwave,,-,0.0
+2011-05-23 22:24:29,1418.5,ON,microwave,0.94,microwave,,microwave,1418.5
+2011-05-23 22:24:40,-1484.7,OFF,microwave,0.99,microwave,,-,0.0
+2011-05-23 22:25:07,1427.4,ON,microwave,0.96,microwave,,microwave,1427.4
+2011-05-23 22:25:20,-1421.1,OFF,microwave,0.96,microwave,,-,0.0
+2011-05-23 22:25:41,1414.4,ON,microwave,0.83,microwave,,microwave,1414.4
+2011-05-23 22:25:52,-1404.3,OFF,microwave,0.88,microwave,,-,0.0
+2011-05-23 22:26:12,-4063.8,OFF,oven,0.82,(ignored),,-,0.0
+2011-05-23 22:26:45,1478.8,ON,microwave,0.94,microwave,,microwave,1478.8
+2011-05-23 22:26:56,-1484.4,OFF,microwave,0.99,microwave,,-,0.0
+2011-05-23 22:27:05,1468.6,ON,microwave,0.96,microwave,,microwave,1468.6
+2011-05-23 22:27:29,-1456.9,OFF,microwave,0.96,microwave,,-,0.0
+2011-05-23 22:27:49,1488.1,ON,microwave,0.92,microwave,,microwave,1488.1
+2011-05-23 22:27:58,-1476.2,OFF,microwave,0.59,microwave,,-,0.0
+2011-05-23 22:28:09,-61.8,OFF,lighting,0.46,(ignored),,-,0.0
+2011-05-23 22:29:22,4127.8,ON,oven,1.0,oven,,oven,4127.8
+2011-05-23 22:30:31,-4067.7,OFF,oven,0.98,oven,,oven,60.1
+2011-05-23 22:31:14,205.4,ON,refrigerator,0.95,refrigerator,,"oven, refrigerator",265.5
+2011-05-23 22:31:46,1488.9,ON,microwave,0.95,microwave,,"microwave, oven, refrigerator",1754.4
+2011-05-23 22:32:04,-1476.2,OFF,microwave,1.0,microwave,,"oven, refrigerator",265.5
+2011-05-23 22:32:24,1479.2,ON,microwave,1.0,microwave,,"microwave, oven, refrigerator",1744.7
+2011-05-23 22:32:37,-1479.8,OFF,microwave,0.92,microwave,,"oven, refrigerator",265.5
+2011-05-23 22:32:52,1511.2,ON,microwave,1.0,microwave,,"microwave, oven, refrigerator",1776.7
+2011-05-23 22:33:04,-1452.4,OFF,microwave,1.0,microwave,,"microwave, oven, refrigerator",324.3
+2011-05-23 22:33:28,1472.8,ON,microwave,1.0,microwave,,"microwave, oven, refrigerator",1797.1
+2011-05-23 22:33:40,-1465.2,OFF,microwave,0.99,microwave,,"microwave, oven, refrigerator",331.9
+2011-05-23 22:33:52,-65.0,OFF,kitchen_outlets,0.51,microwave,,"oven, refrigerator",265.5
+2011-05-23 22:34:09,33.1,ON,refrigerator,0.87,refrigerator,,"oven, refrigerator",298.6
+2011-05-23 22:34:18,4732.8,ON,washer_dryer,0.6,washer_dryer,,"oven, refrigerator, washer_dryer",5031.4
+2011-05-23 22:34:49,-1402.9,OFF,microwave,1.0,(ignored),"refrigerator, oven, washer_dryer",-,0.0
+2011-05-23 22:37:45,-3293.4,OFF,oven,1.0,(ignored),,-,0.0
+2011-05-23 22:40:28,-90.0,OFF,lighting,0.78,(ignored),,-,0.0
+2011-05-23 22:40:57,3372.7,ON,oven,0.95,oven,,oven,3372.7
+2011-05-23 22:43:41,1427.8,ON,microwave,0.95,microwave,,"microwave, oven",4800.5
+2011-05-23 22:47:40,-1373.4,OFF,microwave,0.83,microwave,,"microwave, oven",3427.1
+2011-05-23 22:54:08,-3294.6,OFF,oven,0.99,(ignored),,-,0.0
+2011-05-23 22:54:28,277.7,ON,refrigerator,0.37,refrigerator,,refrigerator,277.7
+2011-05-23 22:54:45,4717.9,ON,washer_dryer,0.57,washer_dryer,,"refrigerator, washer_dryer",4995.6
+2011-05-23 22:55:48,-1374.3,OFF,microwave,0.65,(ignored),"refrigerator, washer_dryer",-,0.0
+2011-05-23 22:56:45,-44.1,OFF,refrigerator,0.43,(ignored),,-,0.0
+2011-05-23 23:09:29,-3312.9,OFF,oven,0.93,(ignored),,-,0.0
+2011-05-23 23:09:38,-33.2,OFF,refrigerator,0.62,(ignored),,-,0.0
+2011-05-23 23:14:06,-407.7,OFF,refrigerator,0.74,(ignored),,-,0.0
+2011-05-23 23:26:28,263.9,ON,dishwasher,0.89,dishwasher,,dishwasher,263.9
+2011-05-23 23:26:43,-33.2,OFF,kitchen_outlets,0.37,(ignored),,dishwasher,263.9
+2011-05-23 23:27:21,39.2,ON,refrigerator,0.92,refrigerator,,"dishwasher, refrigerator",303.1
+2011-05-23 23:27:30,-37.8,OFF,refrigerator,0.93,refrigerator,,dishwasher,263.9
+2011-05-23 23:27:50,1516.0,ON,microwave,0.99,microwave,,"dishwasher, microwave",1779.9
+2011-05-23 23:28:39,42.2,ON,kitchen_outlets,0.87,kitchen_outlets,,"dishwasher, kitchen_outlets, microwave",1822.1
+2011-05-23 23:29:01,-131.5,OFF,lighting,0.36,(ignored),,"dishwasher, kitchen_outlets, microwave",1822.1
+2011-05-23 23:30:53,-1452.0,OFF,microwave,1.0,microwave,,"dishwasher, kitchen_outlets, microwave",370.1
+2011-05-23 23:45:06,30.1,ON,kitchen_outlets,0.47,kitchen_outlets,,"dishwasher, kitchen_outlets",294.0
+2011-05-23 23:45:37,-38.1,OFF,refrigerator,0.98,kitchen_outlets,,dishwasher,263.9

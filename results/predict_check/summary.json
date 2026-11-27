@@ -1,0 +1,28 @@
+{
+ "2011-05-23": {
+  "n_predicted_events": 207,
+  "n_true_events": 235,
+  "n_true_events_of_model_classes": 235,
+  "detected_and_matched": 187,
+  "detection_precision": 0.9033816425120773,
+  "detection_recall_model_classes": 0.7957446808510639,
+  "on_off_correct_of_matched": 1.0,
+  "appliance_accuracy_of_matched_model_classes": 0.8074866310160428,
+  "n_matched_model_classes": 187,
+  "seconds_whole_set_correct": 0.3513217200633451,
+  "baseline_everything_off_set_correct": 0.275612133024729
+ },
+ "whole_test_period": {
+  "n_predicted_events": 861,
+  "n_true_events": 998,
+  "n_true_events_of_model_classes": 998,
+  "detected_and_matched": 788,
+  "detection_precision": 0.9152148664343787,
+  "detection_recall_model_classes": 0.7895791583166333,
+  "on_off_correct_of_matched": 1.0,
+  "appliance_accuracy_of_matched_model_classes": 0.833756345177665,
+  "n_matched_model_classes": 788,
+  "seconds_whole_set_correct": 0.22021497090038383,
+  "baseline_everything_off_set_correct": 0.18527637754767193
+ }
+}
